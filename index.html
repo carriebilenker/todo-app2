@@ -4,20 +4,67 @@
     <meta charset="utf-8">
     <title>Task Master</title>
     <script src="https://use.fontawesome.com/e456ab459c.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/todo.css">
     <script type="text/javascript" src="/todo2.js"></script>
   </head>
   <body>
     <header>
-    <h1>TITLE</h1>
+    <h1>Task Master</h1>
     </header>
-    
+
     <div class="wrapper">
-      <div class="box a">A</div>
-      <div class="box b">B</div>
-      <div class="box d">C</div>
-      <div class="box e">D</div>
-      <div class="box e">E</div>
+      <div class="box a">
+
+<!--  Assign the task-->
+        <form>
+          <h2> Assign Task To: </h2>
+            <input type="radio" name="worker" value="Yakko"> Yakko
+            <input type="radio" name="worker" value="Wakko"> Wakko
+            <input type="radio" name="worker" value="Dot"> Dot
+        </form>
+
+    <br>
+<!-- Explain the skill level -->
+        <form>
+          <h2> Task Difficulty </h2>
+            <select>
+              <option value="Basic">Basic</option>
+              <option value="Easy Breezy">Easy Breezy</option>
+              <option value="Medium Rare">Medium Rare</option>
+              <option value="Long Island Medium">Long Island Medium</option>
+              <option value="Ruff">Ruff</option>
+              <option value="This is Sparta!">This is Sparta!</option>
+            </select>
+      </form>
+    <br>
+<!-- Task Details -->
+      <form class = "taskInformation">
+           <h2> Steps or Instructions </h2>
+               <textarea name ="details" rows="30" cols="29"> No puns, riddles, or scavenger hunts, please!
+             </textarea>
+         </form>
+      </div>
+
+  <!-- Yakko's List -->
+      <div class="box b">
+        <h1> Yakko! </h1>
+      </div>
+
+<!-- Wakko's List -->
+      <div class="box d">
+        <h1> Wakko! </h1>
+
+      </div>
+<!-- Dot's List -->
+      <div class="box e">
+        <h1> Dot! </h1>
+
+      </div>
+<!-- Google Form -->
+      <div class="box e">
+
+      </div>
     </div>
 
   </body>
