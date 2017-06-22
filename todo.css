@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-  background-color: fff;
+  background-color: #fff;
   color: #444;
   display: grid;
 /*   grid-auto-flow: dense; */
@@ -42,6 +42,12 @@ body {
 .box:nth-child(1) {
   grid-row-end: span 4;
   background-color: #032b43;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.box:nth-child(1) textarea {
+  display: block;
   flex-direction: column;
   align-items:flex-start;
 }
