@@ -5,7 +5,7 @@ html {
 header {
   display: flex;
   justify-content: center;
-  background: #d00000;
+  background: #db504a;
   color: white;
   /*padding: 2rem;*/
   margin-bottom: 1rem;
@@ -52,7 +52,7 @@ body {
   align-items:flex-start;
 }
 .box:nth-child(2) {
-  background-color: #3f88c5;
+  background-color: #56a3a6;
   justify-content: center;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .box:nth-child(4) {
-  background-color: #ffbd00;
+  background-color: #4f6d7a;
   justify-content: center;
 }
 

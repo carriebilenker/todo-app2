@@ -17,18 +17,18 @@
       <div class="box a">
 
 <!--  Assign the task-->
-        <form>
+        <form >
           <h2> Assign Task To: </h2>
             <input type="radio" name="worker" value="Yakko"> Yakko
             <input type="radio" name="worker" value="Wakko"> Wakko
             <input type="radio" name="worker" value="Dot"> Dot
-        </form>
+
 
     <br>
 <!-- Explain the skill level -->
-        <form>
+
           <h2> Task Difficulty </h2>
-            <select>
+            <select name = "difficulty">
               <option value="Basic">Basic</option>
               <option value="Easy Breezy">Easy Breezy</option>
               <option value="Medium Rare">Medium Rare</option>
@@ -36,13 +36,15 @@
               <option value="Ruff">Ruff</option>
               <option value="This is Sparta!">This is Sparta!</option>
             </select>
-      </form>
+
     <br>
 <!-- Task Details -->
-      <form class = "taskInformation">
+
+        <div class = "taskInformation">
            <h2> Steps or Instructions </h2>
-               <textarea disabled style="width:100%" name ="details" rows="30" cols="29"> No puns, riddles, or scavenger hunts, please!
+               <textarea name ="details" style="width:100%" rows="30" cols="29"> No puns, riddles, or scavenger hunts, please!
              </textarea>
+        </div>
          </form>
       </div>
 
