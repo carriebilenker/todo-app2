@@ -17,7 +17,7 @@
       <div class="box a">
 
 <!--  Assign the task-->
-        <form >
+        <form onsubmit="createTask()">
           <h2> Assign Task To: </h2>
             <input type="radio" name="worker" value="Yakko"> Yakko
             <input type="radio" name="worker" value="Wakko"> Wakko
@@ -45,22 +45,27 @@
                <textarea name ="details" style="width:100%" rows="30" cols="29"> No puns, riddles, or scavenger hunts, please!
              </textarea>
         </div>
-         </form>
-      </div>
+    <br>
+          <input type="submit" value="Create Task">
+        </form>
+    </div>
 
   <!-- Yakko's List -->
-      <div class="box b">
+      <div id="yakko" class="box Yakko">
         <h1> Yakko! </h1>
+        <div id="tasks-Yakko"></div>
       </div>
 
 <!-- Wakko's List -->
-      <div class="box d">
+      <div id="wakko" class="box Wakko">
         <h1> Wakko! </h1>
+        <div id="tasks-Wakko"></div>
 
       </div>
 <!-- Dot's List -->
-      <div class="box e">
+      <div id="dot" class="box Dot">
         <h1> Dot! </h1>
+        <div id="tasks-Dot"></div>
 
       </div>
 <!-- Google Form -->
